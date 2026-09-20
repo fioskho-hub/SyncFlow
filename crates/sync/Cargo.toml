@@ -6,3 +6,5 @@ license.workspace = true
 
 [dependencies]
 syncflow-core = { path = "../core" }
+syncflow-storage = { path = "../storage" }
+serde = { version = "1.0", features = ["derive"] }

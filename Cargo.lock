@@ -83,7 +83,9 @@ dependencies = [
 name = "syncflow-sync"
 version = "0.1.0"
 dependencies = [
+ "serde",
  "syncflow-core",
+ "syncflow-storage",
 ]
 
 [[package]]
