@@ -1,0 +1,8 @@
+[package]
+name = "syncflow-storage"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+syncflow-core = { path = "../core" }
