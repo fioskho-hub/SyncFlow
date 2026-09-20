@@ -76,6 +76,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "syncflow-examples"
+version = "0.1.0"
+dependencies = [
+ "syncflow-core",
+ "syncflow-crypto",
+ "syncflow-storage",
+ "syncflow-sync",
+]
+
+[[package]]
 name = "syncflow-storage"
 version = "0.1.0"
 dependencies = [

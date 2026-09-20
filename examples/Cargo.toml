@@ -1,0 +1,15 @@
+[package]
+name = "syncflow-examples"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[[bin]]
+name = "demo"
+path = "demo.rs"
+
+[dependencies]
+syncflow-core = { path = "../crates/core" }
+syncflow-storage = { path = "../crates/storage" }
+syncflow-sync = { path = "../crates/sync" }
+syncflow-crypto = { path = "../crates/crypto" }
