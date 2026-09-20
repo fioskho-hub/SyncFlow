@@ -2,14 +2,17 @@
 name = "syncflow-examples"
 version.workspace = true
 edition.workspace = true
-publish = false
 
-[[bin]]
+[[example]]
 name = "demo"
 path = "demo.rs"
 
+[[example]]
+name = "server_client"
+path = "server_client.rs"
+
 [dependencies]
-syncflow-core = { path = "../crates/core" }
-syncflow-storage = { path = "../crates/storage" }
-syncflow-sync = { path = "../crates/sync" }
-syncflow-crypto = { path = "../crates/crypto" }
+syncflow-core.workspace = true
+syncflow-storage.workspace = true
+syncflow-sync.workspace = true
+tokio.workspace = true
