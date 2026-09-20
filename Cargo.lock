@@ -71,6 +71,9 @@ dependencies = [
 [[package]]
 name = "syncflow-crypto"
 version = "0.1.0"
+dependencies = [
+ "serde",
+]
 
 [[package]]
 name = "syncflow-storage"
